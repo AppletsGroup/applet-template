@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { useAppDispatch, useAppSelector, post } from 'applet-store'
 import { useReachBottom } from 'use-reach-bottom'
 import { useApplet } from 'applet-shell'
-const { setCurrentPage, loadPosts, setContentTypes, setAppletId } = post
+const { setCurrentPage, loadPosts, setSchemas, setAppletId } = post
 
-const PostsPage = () => {
+export default function PostsPage() {
   const listRef = useRef(null)
   const { hasNext, posts, currentPage, loadingPosts, loadedOnce } = useAppSelector((state) => state.post)
   const dispatch = useAppDispatch()
@@ -14,7 +14,7 @@ const PostsPage = () => {
 
   useEffect(() => {
     const initData = (): void => {
-      dispatch(setContentTypes(['YOUR APPLET CONTENT TYPE']))
+      dispatch(setSchemas(['YOUR APPLET POST SCHEMAS']))
       dispatch(setAppletId(appletId))
       void dispatch(loadPosts())
     }
@@ -29,9 +29,9 @@ const PostsPage = () => {
   })
 
   return (
-    <div className="bg-white min-h-screen">
-      <div className="max-w-7xl mx-auto py-5 sm:px-6 lg:px-8 px-4">
-        <h2 className="text-3xl font-extrabold text-blue-500">Posts</h2>
+    <div className="h-full">
+      <div className="container mx-auto py-5">
+        <h2 className="text-3xl font-extrabold">Posts</h2>
         <div className="mt-8 grid gap-8 lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1">
           {posts.map((post) => (
             <div key={post.id}>{post.id}</div>
@@ -41,5 +41,3 @@ const PostsPage = () => {
     </div>
   )
 }
-
-export default PostsPage

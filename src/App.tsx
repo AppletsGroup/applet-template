@@ -18,9 +18,7 @@ const router = createBrowserRouter(
     <Route >
       <Route
         element={(
-          <DefaultLayout
-            menus={menus}
-            title={'Applet Title'} />
+          <DefaultLayout menus={menus} />
         )}>
         <Route
           path="/"
@@ -43,7 +41,7 @@ const router = createBrowserRouter(
 
 const App: React.FC = () => {
   return (
-    <AppletProvider appletName="CAREER">
+    <AppletProvider appletName="YOUR_APPLET_NAME">
       <Provider store={appletStore}>
         <RouterProvider router={router} />
       </Provider>

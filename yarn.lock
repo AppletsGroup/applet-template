@@ -721,6 +721,19 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
+"@radix-ui/react-alert-dialog@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-alert-dialog/-/react-alert-dialog-1.0.5.tgz#70dd529cbf1e4bff386814d3776901fcaa131b8c"
+  integrity sha512-OrVIOcZL0tl6xibeuGt5/+UxoT2N27KCFOPjFyfXMnchxSHZ/OW7cCX2nGlIYJrbHK/fczPcFzAwvNBB6XBNMA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "1.0.1"
+    "@radix-ui/react-compose-refs" "1.0.1"
+    "@radix-ui/react-context" "1.0.1"
+    "@radix-ui/react-dialog" "1.0.5"
+    "@radix-ui/react-primitive" "1.0.3"
+    "@radix-ui/react-slot" "1.0.2"
+
 "@radix-ui/react-arrow@1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-arrow/-/react-arrow-1.0.3.tgz#c24f7968996ed934d57fe6cde5d6ec7266e1d25d"
@@ -728,6 +741,17 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@radix-ui/react-primitive" "1.0.3"
+
+"@radix-ui/react-avatar@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-avatar/-/react-avatar-1.0.4.tgz#de9a5349d9e3de7bbe990334c4d2011acbbb9623"
+  integrity sha512-kVK2K7ZD3wwj3qhle0ElXhOjbezIgyl2hVvgwfIdexL3rN6zJmy5AqqIf+D31lxVppdzV8CjAfZ6PklkmInZLw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-context" "1.0.1"
+    "@radix-ui/react-primitive" "1.0.3"
+    "@radix-ui/react-use-callback-ref" "1.0.1"
+    "@radix-ui/react-use-layout-effect" "1.0.1"
 
 "@radix-ui/react-collection@1.0.3":
   version "1.0.3"
@@ -754,7 +778,7 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@radix-ui/react-dialog@^1.0.5":
+"@radix-ui/react-dialog@1.0.5", "@radix-ui/react-dialog@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-1.0.5.tgz#71657b1b116de6c7a0b03242d7d43e01062c7300"
   integrity sha512-GjWJX/AUpB703eEBanuBnIWdIXg6NvJFCXcNlSZk4xdszCdhrJgBoUd1cGk67vFO+WdA2pfI/plOpqz/5GUP6Q==
@@ -974,6 +998,14 @@
     aria-hidden "^1.1.1"
     react-remove-scroll "2.5.5"
 
+"@radix-ui/react-separator@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-separator/-/react-separator-1.0.3.tgz#be5a931a543d5726336b112f465f58585c04c8aa"
+  integrity sha512-itYmTy/kokS21aiV5+Z56MZB54KrhPgn6eHDKkFeOLR34HMN2s8PaN47qZZAGnvupcjxHaFZnW4pQEh0BvvVuw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-primitive" "1.0.3"
+
 "@radix-ui/react-slot@1.0.2", "@radix-ui/react-slot@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-slot/-/react-slot-1.0.2.tgz#a9ff4423eade67f501ffb32ec22064bc9d3099ab"
@@ -981,6 +1013,21 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@radix-ui/react-compose-refs" "1.0.1"
+
+"@radix-ui/react-tabs@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-tabs/-/react-tabs-1.0.4.tgz#993608eec55a5d1deddd446fa9978d2bc1053da2"
+  integrity sha512-egZfYY/+wRNCflXNHx+dePvnz9FbmssDTJBtgRfDY7e8SE5oIo3Py2eCB1ckAbh1Q7cQ/6yJZThJ++sgbxibog==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "1.0.1"
+    "@radix-ui/react-context" "1.0.1"
+    "@radix-ui/react-direction" "1.0.1"
+    "@radix-ui/react-id" "1.0.1"
+    "@radix-ui/react-presence" "1.0.1"
+    "@radix-ui/react-primitive" "1.0.3"
+    "@radix-ui/react-roving-focus" "1.0.4"
+    "@radix-ui/react-use-controllable-state" "1.0.1"
 
 "@radix-ui/react-use-callback-ref@1.0.1":
   version "1.0.1"
@@ -1374,31 +1421,40 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-applet-apis@^0.0.32:
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.32.tgz#01939ca4fce2b800abef3f7b3fed8f6a17ac18b5"
-  integrity sha512-gwG7a0CTq1mV7MLn/fiCozWUQEl2qC3izIdES0Ek2ZG2sS0CNlgWqWPP9YVg7GOMsneBr0BYK+d3zcNTy32DNQ==
+applet-apis@^0.0.37:
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.37.tgz#4187d45cbe4e4e1c24ef7fca638901f6bf492c27"
+  integrity sha512-noT3bX32xY55m5+VsBKwIVtyovOnD1EKts1af8VljXA/nvbLJ1JiSCcjhprH2Ybl2e75P/yrNUKmBCAShwYS7g==
+
+applet-apis@^0.0.38:
+  version "0.0.38"
+  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.38.tgz#c22f2271f3a8de7c0e6d31040b563be1e0cbb6af"
+  integrity sha512-mVEQVaWeHJEclqhHka/M12bSVMkTrsYi1uoHKDUgA7G44eC4gCCqSUKv4mySmK0P/dGwka1W2knHVvglISy+CA==
 
 applet-design-utility@^0.0.12:
   version "0.0.12"
   resolved "https://registry.yarnpkg.com/applet-design-utility/-/applet-design-utility-0.0.12.tgz#8ff81d55b456afa37ffbef7342e2679dd31304ba"
   integrity sha512-5/RpYV7+730w24Hopy3R/brMrgP/rZcCbVHRmu3E6dCofMDO9RLQhcc+fxgZ7AX9EzN/v2IbtFzBAzYLbElFOA==
 
-applet-design@^0.0.42:
-  version "0.0.42"
-  resolved "https://registry.yarnpkg.com/applet-design/-/applet-design-0.0.42.tgz#97a4d4fec4c5d7ca1b196f3a797e8a93bf74e476"
-  integrity sha512-hBuerHIlnOYPaM6rcpAjXq1szbx3Rn70/Izxnklw5AiywDaOkbinpX0LkdyXWYsS2I3fjYJEns0ojK13HOy1rA==
+applet-design@^0.0.44:
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/applet-design/-/applet-design-0.0.44.tgz#1f68deaf7bfbd069ae666fd55d1149d7686e9bd4"
+  integrity sha512-SC38wFNMVbP9v1sFRNUTFND/3LlGF8bs+sY93ssCDtOLzjjJkLwRzQp7Ek2TU1s1w0f60WZ3opk/geLMR/1+Uw==
   dependencies:
     "@headlessui/react" "^1.7.5"
     "@heroicons/react" "^2.0.13"
     "@hookform/resolvers" "^3.3.2"
     "@popperjs/core" "^2.11.8"
+    "@radix-ui/react-alert-dialog" "^1.0.5"
+    "@radix-ui/react-avatar" "^1.0.4"
     "@radix-ui/react-dialog" "^1.0.5"
     "@radix-ui/react-dropdown-menu" "^2.0.6"
     "@radix-ui/react-label" "^2.0.2"
     "@radix-ui/react-popover" "^1.0.7"
     "@radix-ui/react-select" "^2.0.0"
+    "@radix-ui/react-separator" "^1.0.3"
     "@radix-ui/react-slot" "^1.0.2"
+    "@radix-ui/react-tabs" "^1.0.4"
     applet-design-utility "^0.0.12"
     class-variance-authority "^0.7.0"
     clsx "^2.0.0"
@@ -1416,15 +1472,16 @@ applet-js-sdk@^0.0.1:
   resolved "https://registry.yarnpkg.com/applet-js-sdk/-/applet-js-sdk-0.0.1.tgz#0bab6d2b32aa46fb7af0c9062beed04a5d567f98"
   integrity sha512-D7vm2hb2cTV2Va+xDsuXeTwMyvHaE8rUud/McQBgUjVWawd6PqgG6yHDJ9gsPwK+kG7jYEqFuHhXETmfSvftfg==
 
-applet-shell@^0.0.43:
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/applet-shell/-/applet-shell-0.0.43.tgz#8ba154ad40aedd883dcaab51b005c9c25405d23b"
-  integrity sha512-ZGpLD3La7YtbL/RlGoKJojItxGpikxSLj7BGO4zVxIGPQEQyrKCG/GNJ6dMgYTvsjTL+N0rillO4YPF8FAIWeg==
+applet-shell@^0.0.60:
+  version "0.0.60"
+  resolved "https://registry.yarnpkg.com/applet-shell/-/applet-shell-0.0.60.tgz#a76d45544055cdc1e287b803a73d40e3a70e2c56"
+  integrity sha512-duS3igD8JxMEDP2DrM5siqk1G6+tHUyrJnLK53w6jDRJf0ZzUET6YmBR6Noh4mbFtuUGMYSgou85ZMwB/nI1eA==
   dependencies:
     "@use-gesture/react" "^10.2.26"
-    applet-apis "^0.0.32"
-    applet-design "^0.0.42"
+    applet-apis "^0.0.38"
+    applet-design "^0.0.44"
     applet-js-sdk "^0.0.1"
+    applet-types "^0.0.11"
     classnames "^2.3.2"
     framer-motion "^10.10.0"
     lucide-react "^0.294.0"
@@ -1432,24 +1489,24 @@ applet-shell@^0.0.43:
     react-hot-toast "^2.4.0"
     react-router-dom "^6.20.0"
 
-applet-store@^0.0.23:
-  version "0.0.23"
-  resolved "https://registry.yarnpkg.com/applet-store/-/applet-store-0.0.23.tgz#6ca24c29584bfd0f22172175f5f410f33b6cb236"
-  integrity sha512-teEuFPIKZE1sFigAyoc85bjULFXK7q2UwaYIIJAA4Km+OkAQ6xazyguqa0enp2KMrME/TkxRwdwExWRlfrDaEA==
+applet-store@^0.0.25:
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/applet-store/-/applet-store-0.0.25.tgz#1c124b89b282d08bf47d26fe47ab0ed0abfb9942"
+  integrity sha512-3FVxyJaDNM9DkjITUshBj6MQRKb1TFae1sHdwxLc2m986ispCVOkxPECBlXbFBeEgWwKQfRvo2tw+Euqkj+GsA==
   dependencies:
     "@apollo/client" "^3.7.10"
     "@reduxjs/toolkit" "^1.9.3"
-    applet-apis "^0.0.32"
+    applet-apis "^0.0.37"
     dayjs "^1.11.7"
     graphql "^16.6.0"
     react "^18.2.0"
     react-dom "^18.2.0"
     react-redux "^8.0.5"
 
-applet-types@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.8.tgz#51544f30794e65e1392f96a736c2afa96d33f8ef"
-  integrity sha512-mlFWNea0cqXIXB5atNVfDu4ocioousqYCICHURu43Tne1kddmMz/VY5zh53XRGaV/kTakKJCxRohVUsuXMB1gg==
+applet-types@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.11.tgz#93be41a33705d45ab88af4bc2252706e70a1031c"
+  integrity sha512-sbnv7q4h9czZSR46rqVidIVGzDCr1u1i29R6q0ZDStB92dTvsK6g6UaRhFe0BhafzX1CeilKW265eIlAgJlqbg==
 
 arg@^4.1.0:
   version "4.1.3"
