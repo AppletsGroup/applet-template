@@ -1107,10 +1107,10 @@
     redux-thunk "^2.4.2"
     reselect "^4.1.8"
 
-"@remix-run/router@1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.13.0.tgz#7e29c4ee85176d9c08cb0f4456bff74d092c5065"
-  integrity sha512-5dMOnVnefRsl4uRnAdoWjtVTdh8e6aZqgM4puy9nmEADH72ck+uXwzpJLEKE9Q6F8ZljNewLgmTfkxUrBdv4WA==
+"@remix-run/router@1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.13.1.tgz#07e2a8006f23a3bc898b3f317e0a58cc8076b86e"
+  integrity sha512-so+DHzZKsoOcoXrILB4rqDkMDy7NLMErRdOxvzvOKb507YINKUP4Di+shbTZDhSE/pBZ+vr7XGIpcOO0VLSA+Q==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
@@ -1421,25 +1421,20 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-applet-apis@^0.0.37:
-  version "0.0.37"
-  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.37.tgz#4187d45cbe4e4e1c24ef7fca638901f6bf492c27"
-  integrity sha512-noT3bX32xY55m5+VsBKwIVtyovOnD1EKts1af8VljXA/nvbLJ1JiSCcjhprH2Ybl2e75P/yrNUKmBCAShwYS7g==
-
-applet-apis@^0.0.38:
-  version "0.0.38"
-  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.38.tgz#c22f2271f3a8de7c0e6d31040b563be1e0cbb6af"
-  integrity sha512-mVEQVaWeHJEclqhHka/M12bSVMkTrsYi1uoHKDUgA7G44eC4gCCqSUKv4mySmK0P/dGwka1W2knHVvglISy+CA==
+applet-apis@^0.0.41:
+  version "0.0.41"
+  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.41.tgz#281583d403baf9d3999bee20a12dbb5a79883905"
+  integrity sha512-8Xsjd40xAgQzI9GjgmvlvMhSGaF4E3qWt8FE/+J8VDr85KxePpwNxADvkFxWxKN7cLIk5k3cITA8nf9yS9DMDQ==
 
 applet-design-utility@^0.0.12:
   version "0.0.12"
   resolved "https://registry.yarnpkg.com/applet-design-utility/-/applet-design-utility-0.0.12.tgz#8ff81d55b456afa37ffbef7342e2679dd31304ba"
   integrity sha512-5/RpYV7+730w24Hopy3R/brMrgP/rZcCbVHRmu3E6dCofMDO9RLQhcc+fxgZ7AX9EzN/v2IbtFzBAzYLbElFOA==
 
-applet-design@^0.0.44:
-  version "0.0.44"
-  resolved "https://registry.yarnpkg.com/applet-design/-/applet-design-0.0.44.tgz#1f68deaf7bfbd069ae666fd55d1149d7686e9bd4"
-  integrity sha512-SC38wFNMVbP9v1sFRNUTFND/3LlGF8bs+sY93ssCDtOLzjjJkLwRzQp7Ek2TU1s1w0f60WZ3opk/geLMR/1+Uw==
+applet-design@^0.0.45:
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/applet-design/-/applet-design-0.0.45.tgz#2bc32675546ca6d3cbac1ac113211276e9779817"
+  integrity sha512-JbU7ZMdAPgRfKTE3rdO69IYhG9MvdhntjBfbvsm1CAoW+w58qSK8fQOdXlUgCegWFh387piBX5Tfe3E8edBn6w==
   dependencies:
     "@headlessui/react" "^1.7.5"
     "@heroicons/react" "^2.0.13"
@@ -1460,7 +1455,6 @@ applet-design@^0.0.44:
     clsx "^2.0.0"
     date-fns "^2.30.0"
     focus-trap-react "^10.2.2"
-    lucide-react "^0.292.0"
     react-day-picker "^8.9.1"
     react-hook-form "^7.48.2"
     tailwind-merge "^2.0.0"
@@ -1472,41 +1466,30 @@ applet-js-sdk@^0.0.1:
   resolved "https://registry.yarnpkg.com/applet-js-sdk/-/applet-js-sdk-0.0.1.tgz#0bab6d2b32aa46fb7af0c9062beed04a5d567f98"
   integrity sha512-D7vm2hb2cTV2Va+xDsuXeTwMyvHaE8rUud/McQBgUjVWawd6PqgG6yHDJ9gsPwK+kG7jYEqFuHhXETmfSvftfg==
 
-applet-shell@^0.0.60:
-  version "0.0.60"
-  resolved "https://registry.yarnpkg.com/applet-shell/-/applet-shell-0.0.60.tgz#a76d45544055cdc1e287b803a73d40e3a70e2c56"
-  integrity sha512-duS3igD8JxMEDP2DrM5siqk1G6+tHUyrJnLK53w6jDRJf0ZzUET6YmBR6Noh4mbFtuUGMYSgou85ZMwB/nI1eA==
+applet-shell@^0.0.62:
+  version "0.0.62"
+  resolved "https://registry.yarnpkg.com/applet-shell/-/applet-shell-0.0.62.tgz#93d5836b52df67f6ee3d34b17fefb2427ba4e6a7"
+  integrity sha512-7X2VRRfEWEASbk2Wl1mJ60ksuWzSYZdOpt2dIBS0PtYPj9kqQH0tNbejN6nzRpj4/X8OHpWaTumsuGXlAsR8Kg==
   dependencies:
     "@use-gesture/react" "^10.2.26"
-    applet-apis "^0.0.38"
-    applet-design "^0.0.44"
     applet-js-sdk "^0.0.1"
-    applet-types "^0.0.11"
     classnames "^2.3.2"
     framer-motion "^10.10.0"
-    lucide-react "^0.294.0"
-    react "^18.2.0"
     react-hot-toast "^2.4.0"
-    react-router-dom "^6.20.0"
 
-applet-store@^0.0.25:
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/applet-store/-/applet-store-0.0.25.tgz#1c124b89b282d08bf47d26fe47ab0ed0abfb9942"
-  integrity sha512-3FVxyJaDNM9DkjITUshBj6MQRKb1TFae1sHdwxLc2m986ispCVOkxPECBlXbFBeEgWwKQfRvo2tw+Euqkj+GsA==
+applet-store@^0.0.30:
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/applet-store/-/applet-store-0.0.30.tgz#2a50c46aaf53f3ff7e635ad8507a1d6532571961"
+  integrity sha512-exGTCMg70rKyS8Ds7Ain3xVFkbyl4rhMS1wzfaActlIWwlFexqb2IJU7kJVkLmFUyQA6oYE2oA7uaQbN+kfpPw==
   dependencies:
     "@apollo/client" "^3.7.10"
     "@reduxjs/toolkit" "^1.9.3"
-    applet-apis "^0.0.37"
-    dayjs "^1.11.7"
     graphql "^16.6.0"
-    react "^18.2.0"
-    react-dom "^18.2.0"
-    react-redux "^8.0.5"
 
-applet-types@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.11.tgz#93be41a33705d45ab88af4bc2252706e70a1031c"
-  integrity sha512-sbnv7q4h9czZSR46rqVidIVGzDCr1u1i29R6q0ZDStB92dTvsK6g6UaRhFe0BhafzX1CeilKW265eIlAgJlqbg==
+applet-types@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.12.tgz#084b6a321a06582d05d4f7d218c726c31d48c5b8"
+  integrity sha512-40s6iP7oRUWErHpts7Xx5JDX9jX1kxGAuWk2EHmS8khWwQDfajJB9dbK3cHl5sSzFhY0IE8Lv3j/3xEMyv92Bg==
 
 arg@^4.1.0:
   version "4.1.3"
@@ -1936,11 +1919,6 @@ date-fns@^2.30.0:
   integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
   dependencies:
     "@babel/runtime" "^7.21.0"
-
-dayjs@^1.11.7:
-  version "1.11.9"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.9.tgz#9ca491933fadd0a60a2c19f6c237c03517d71d1a"
-  integrity sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==
 
 debug@4.3.4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
@@ -3348,11 +3326,6 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lucide-react@^0.292.0:
-  version "0.292.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.292.0.tgz#c8a06b2ccd8a348a88669def3c0291c035de2884"
-  integrity sha512-rRgUkpEHWpa5VCT66YscInCQmQuPCB1RFRzkkxMxg4b+jaL0V12E3riWWR2Sh5OIiUhCwGW/ZExuEO4Az32E6Q==
-
 lucide-react@^0.294.0:
   version "0.294.0"
   resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.294.0.tgz#dc406e1e7e2f722cf93218fe5b31cf3c95778817"
@@ -3897,20 +3870,20 @@ react-remove-scroll@2.5.5:
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
 
-react-router-dom@^6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.20.0.tgz#7b9527a1e29c7fb90736a5f89d54ca01f40e264b"
-  integrity sha512-CbcKjEyiSVpA6UtCHOIYLUYn/UJfwzp55va4yEfpk7JBN3GPqWfHrdLkAvNCcpXr8QoihcDMuk0dzWZxtlB/mQ==
+react-router-dom@^6.20.1:
+  version "6.20.1"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.20.1.tgz#e34f8075b9304221420de3609e072bb349824984"
+  integrity sha512-npzfPWcxfQN35psS7rJgi/EW0Gx6EsNjfdJSAk73U/HqMEJZ2k/8puxfwHFgDQhBGmS3+sjnGbMdMSV45axPQw==
   dependencies:
-    "@remix-run/router" "1.13.0"
-    react-router "6.20.0"
+    "@remix-run/router" "1.13.1"
+    react-router "6.20.1"
 
-react-router@6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.20.0.tgz#4275a3567ecc55f7703073158048db10096bb539"
-  integrity sha512-pVvzsSsgUxxtuNfTHC4IxjATs10UaAtvLGVSA1tbUE4GDaOSU1Esu2xF5nWLz7KPiMuW8BJWuPFdlGYJ7/rW0w==
+react-router@6.20.1:
+  version "6.20.1"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.20.1.tgz#e8cc326031d235aaeec405bb234af77cf0fe75ef"
+  integrity sha512-ccvLrB4QeT5DlaxSFFYi/KR8UMQ4fcD8zBcR71Zp1kaYTC5oJKYAp1cbavzGrogwxca+ubjkd7XjFZKBW8CxPA==
   dependencies:
-    "@remix-run/router" "1.13.0"
+    "@remix-run/router" "1.13.1"
 
 react-style-singleton@^2.2.1:
   version "2.2.1"
