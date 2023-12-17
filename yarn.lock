@@ -1421,10 +1421,10 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-applet-apis@^0.0.41:
-  version "0.0.41"
-  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.41.tgz#281583d403baf9d3999bee20a12dbb5a79883905"
-  integrity sha512-8Xsjd40xAgQzI9GjgmvlvMhSGaF4E3qWt8FE/+J8VDr85KxePpwNxADvkFxWxKN7cLIk5k3cITA8nf9yS9DMDQ==
+applet-apis@^0.0.48:
+  version "0.0.48"
+  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.48.tgz#c1108b1b3e4bb51208e405ecf920eaabdf232120"
+  integrity sha512-m9OK3YmTDBtUsFNrFpbvbKoFDCqjO+MVH5Hbz35+8Nghxb/QmOIu/Q/i0YT5ID1MgRyZSOsfsgdAIkA/EQun0Q==
 
 applet-design-utility@^0.0.12:
   version "0.0.12"
@@ -1477,19 +1477,19 @@ applet-shell@^0.0.62:
     framer-motion "^10.10.0"
     react-hot-toast "^2.4.0"
 
-applet-store@^0.0.30:
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/applet-store/-/applet-store-0.0.30.tgz#2a50c46aaf53f3ff7e635ad8507a1d6532571961"
-  integrity sha512-exGTCMg70rKyS8Ds7Ain3xVFkbyl4rhMS1wzfaActlIWwlFexqb2IJU7kJVkLmFUyQA6oYE2oA7uaQbN+kfpPw==
+applet-store@^0.0.32:
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/applet-store/-/applet-store-0.0.32.tgz#51f87259032b2185a8d1a5df162ade7cd24c32e8"
+  integrity sha512-1MyBvXAi/EK6NkQaV018+oR254uVTLGqkHhggFtH/vvK/uJPGLqZNzTwWoXMfaCvQdyCIP2/lCOV8uVpnglaSg==
   dependencies:
     "@apollo/client" "^3.7.10"
     "@reduxjs/toolkit" "^1.9.3"
     graphql "^16.6.0"
 
-applet-types@^0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.12.tgz#084b6a321a06582d05d4f7d218c726c31d48c5b8"
-  integrity sha512-40s6iP7oRUWErHpts7Xx5JDX9jX1kxGAuWk2EHmS8khWwQDfajJB9dbK3cHl5sSzFhY0IE8Lv3j/3xEMyv92Bg==
+applet-types@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.14.tgz#554732dc3fe600769665adf89df82d734b0e8ee8"
+  integrity sha512-qEufZPrv3PIKCqI2mEvCMx0UvvDuUfku9Vcs4Oxmq729r9f/B9+RJzu3I/O3Rfl8G6mSnDik6U/gLj8lEshNPA==
 
 arg@^4.1.0:
   version "4.1.3"
