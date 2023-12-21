@@ -1421,10 +1421,10 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-applet-apis@^0.0.48:
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.48.tgz#c1108b1b3e4bb51208e405ecf920eaabdf232120"
-  integrity sha512-m9OK3YmTDBtUsFNrFpbvbKoFDCqjO+MVH5Hbz35+8Nghxb/QmOIu/Q/i0YT5ID1MgRyZSOsfsgdAIkA/EQun0Q==
+applet-apis@^0.0.50:
+  version "0.0.50"
+  resolved "https://registry.yarnpkg.com/applet-apis/-/applet-apis-0.0.50.tgz#851e1075e084f71fb1ba722244a39ef4f6c75f93"
+  integrity sha512-SEExsJysS/6BTf9XL9REmwbU2rfwyUOpcFAbabCfrS7KMn/c5nqkn0+ay4xdY9azugbw17Ofxy+QzLfNJBl9Rg==
 
 applet-design-utility@^0.0.12:
   version "0.0.12"
@@ -1486,10 +1486,10 @@ applet-store@^0.0.32:
     "@reduxjs/toolkit" "^1.9.3"
     graphql "^16.6.0"
 
-applet-types@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.14.tgz#554732dc3fe600769665adf89df82d734b0e8ee8"
-  integrity sha512-qEufZPrv3PIKCqI2mEvCMx0UvvDuUfku9Vcs4Oxmq729r9f/B9+RJzu3I/O3Rfl8G6mSnDik6U/gLj8lEshNPA==
+applet-types@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/applet-types/-/applet-types-0.0.15.tgz#f5129a1c4bef09345d7c4091b7cf5f51f7c826e7"
+  integrity sha512-6Vlj4WLtNLy6HVpreTwe4oTPaw3UQ7Y+KxdUi1anancvYFO33qjhmull9vIP0PJbhgjHqVvrubeeVM3XsK5gcg==
 
 arg@^4.1.0:
   version "4.1.3"
